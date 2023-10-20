@@ -1,0 +1,41 @@
+.grid-body{
+
+    display: grid;
+    grid-template-columns: 75% 25%;
+}
+
+.grid-footer{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.grid-header{
+    display: grid;
+    grid-template-columns: 20% 80%;
+    min-height: 120px;
+}
+
+div{
+    border: 1px solid black;
+}
+
+.head{
+   
+    align-items: center;
+
+}
+.body{
+    min-height: 400px;
+}
+.foot{
+    min-height: 80px ;
+    max-height: 80px;
+}
+h1{
+    font-size: 2.5rem;
+}
+.logo{
+    height: 60px;
+    width: 60px;
+
+}
