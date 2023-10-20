@@ -6,8 +6,17 @@
     display: grid;
     grid-template-columns: 75% 25%;
 }
-
+header{
+    background-color: #567BD1;
+}
+body{
+    background-color: #6490f5;
+}
+footer{
+    background-color: #243357;
+}
 .grid-footer{
+
     min-height: 80px ;
     max-height: 80px;
     display: grid;
@@ -32,11 +41,12 @@
     min-height: 400px;
 }
 .foot-izq{
-
+    background-color: #243357;
     font-size: 1.5em;
     font-weight: bold;
 }
 .foot-der{
+    background-color: #243357;
     align-items: end;
     text-align: right;
 
@@ -48,8 +58,8 @@ h1{
     font-size: 2.5rem;
 }
 .logo{
-    height: 60px;
-    width: 60px;
+    height: 120px;
+    width: 240px;
 
 }
 .lista-footer{
@@ -88,4 +98,18 @@ h1{
     padding-right: 5px;
     margin-right: 5px;
     margin-left: 5px;
+}
+#aside{
+    display: flex;
+    flex-direction: column;
+
+}
+a{
+    color: black;
+    display: inline-block;
+    text-decoration: none;
+    background-color: gray;
+}
+a:hover{
+    background-color: #6490f5;
 }
