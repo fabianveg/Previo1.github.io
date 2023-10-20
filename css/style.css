@@ -1,3 +1,4 @@
+
 .grid-body{
 
     display: grid;
@@ -30,11 +31,23 @@ div{
 .body{
     min-height: 400px;
 }
-.foot{
+.foot-izq{
 
     font-size: 1.5em;
     font-weight: bold;
 }
+.foot-der{
+    align-items: center;
+    text-align: right;
+
+}
+.p-foot-der{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 5;
+    }
+    
+
 h1{
     font-size: 2.5rem;
 }
